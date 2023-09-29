@@ -1,23 +1,9 @@
-# Template para avaliação P2
+# Prova 2 - Modulo7 
 
-Saída esperada após execução do programa:
+Primeiramente foi criada o EC2 do front, chamada instancia-front. Nela copiei o front que foi dado com o git clone e coloquei para rodar o apache. A dificuldade que encontre foi para rodar esse front e como linkar ele ao backend, consequentemente naõ consegui realizar essa etapa.
 
-<img src="./media/tela-front.png" display="flex">
+Já para criar o EC2 do backend, chamda instacia-back, não estava conseguindo clonar apenas o front, então clonei todo e repositório. Instalei python, o requirements e uvicorn para funcionar.
 
-# IMPORTANTE:
+Por último, para o RDS criei um Postgres e linkei ao outro backend. Não consegui executar um código para criar o banco como feita em aula, então criei manualmente com o comando SQL dado.
 
-Para colocar o frontend para funcionar, colocar uma máquina EC2 rodando o Apache WebServer.
-Para isso, instalar dentro da EC2:
-
-```bash
-sudo apt update
-sudo apt upgrade
-sudo apt install apache2
-# os arquivos do projeto devem estar em /var/www/html
-git clone https://github.com/Murilo-ZC/Avaliacao-P2-M7-2023-EC.git
-sudo cp ./Avaliacao-P2-M7-2023-EC/frontend /var/www/html
-```
-
-Aqui pessoal, os arquivos já estaram disponíveis na porta 80, não necessário redirecionar.
-
-> IMPORTANTE: Verificar as rotas e utilziar o seu próprio repositório com as modificações realizadas.
+Em geral, consegui criá-los separadamente, porém tive dificuldade em integrar eles.
