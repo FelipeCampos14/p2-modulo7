@@ -4,6 +4,6 @@ Primeiramente foi criada o EC2 do front, chamada instancia-front. Nela copiei o 
 
 Já para criar o EC2 do backend, chamda instacia-back, não estava conseguindo clonar apenas o front, então clonei todo e repositório. Instalei python, o requirements e uvicorn para funcionar.
 
-Por último, para o RDS criei um Postgres e linkei ao outro backend. Não consegui executar um código para criar o banco como feita em aula, então criei manualmente com o comando SQL dado.
+Por último, para o RDS criei um Postgres e linkei ao backend, entrando em Ações, Redes e Conectar ao Banco de Dados RDS. Não consegui executar um código para criar o banco como feita em aula, então criei manualmente com o comando SQL dado.
 
 Em geral, consegui criá-los separadamente, porém tive dificuldade em integrar eles.
